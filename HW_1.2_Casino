@@ -1,0 +1,10 @@
+print("Welcome to >>> Guess the secret number <<<")
+user_name = input("Please enter your name: ")
+print("Hello" + " " + user_name + ".")
+secret = 5
+guess = int(input("Please guess a number (0 - 9): "))
+if guess == secret:
+    print("DING DONG! Jackpot!")
+else:
+    print("Oh no, thats wrong. Try it again.")
+    print("Please insert coin.")
